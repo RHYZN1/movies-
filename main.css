@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 90vh;
+    width: 100%;
+    background-image: url(pexels-photo-6219058.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+@media screen and (max-width:540px){
+
+    .container{
+        height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    }
+
+p{
+    color: white;
+    height: 5%;
+position: absolute;
+left: 45%;
+}
+
+
+
+
+}
